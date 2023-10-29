@@ -1,0 +1,140 @@
+.letter{
+    padding: 3vw 4vw;
+    display: grid;
+    place-content: center;
+
+}
+.b-1{
+    border-left: 1px solid white;
+    padding: 2vw;
+    height: 250px;
+}
+.b-1 button{
+    margin-top: 20px;
+    height: 50px;
+    width: 170px;
+}
+.b-2{
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    padding: 2vw;
+    height: 250px;
+}
+footer{
+    background: #242424;
+    color: white;
+    padding: 4vw 0vw;
+}
+.letter h1{
+    font-family: 'Bebas Neue', sans-serif;
+    line-height: 15vw;
+    font-size: 18vw;
+}
+.contact-us{
+    display: grid;
+    grid-template-columns: 1.2fr 1fr ;
+    border: 1px solid #ffffff;
+    border-left: 0;
+    border-right: 0;
+    /* padding: 3vw 0; */
+
+}
+.contact-us h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+.contact-us span{
+    color: lightgray;
+}
+.d-grid-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+.linkss{
+    display: flex;
+    flex-direction: column;
+}
+.foot{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2vw 4vw;
+
+}
+.foots{
+    padding: 2vw 4vw;
+}
+.footchild{
+    display: flex;
+    gap: 30px;
+}
+.footchild div{
+    display: flex;
+    flex-direction: column;
+
+}
+footer a{
+    color: lightgrey;
+}
+footer .foot h3{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.7rem;
+}
+footer input{
+    background: none;
+    height: 40px;
+    margin-top: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    
+}
+.grid-me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: lightgray;
+}
+u{
+     text-decoration: underline;
+}
+footer input::placeholder{
+
+}
+@media screen and (max-width:1024px) {
+    .contact-us{
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        
+        /* padding: 3vw 0; */
+    
+    }
+    .letter h1{
+        font-size: 15vw;
+    }
+    .contact-us h3{
+        font-size: 2rem;
+    }
+    .contact-us p{
+        font-size: 15px;
+    }
+    .contact-us span{
+        font-size: 15px;
+    }
+    
+}
+@media screen and (max-width:767px) {
+    .contact-us{
+        grid-template-columns: 1fr;
+    }
+    .d-grid-4{
+        grid-template-columns: 1fr ;
+    }
+    .b-1{
+        border:  1px solid white;
+    }
+    .b-2{
+        border:  1px solid white;
+    }
+    
+}

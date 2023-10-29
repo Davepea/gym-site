@@ -1,0 +1,70 @@
+.login{
+    background: rgba(255, 255, 255, 0.686);
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vw;
+    gap: 20px;
+}
+.socio{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.socio div{
+    width: 100px;
+    height: 70px;
+    display: grid;
+    place-items: center;
+    border: 1px solid rgba(0, 0, 0, 0.603);
+    font-size: x-large;
+}
+
+.login form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+.login form input{
+    height: 50px;
+    padding: 15px;
+    border: none;
+    background: rgba(0, 0, 0, 0.072);
+}
+.login form input[type = submit]{
+    background: black;
+    color: white;
+}
+.loginpage{
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    /* background: black; */
+    backdrop-filter: blur(5px);
+    height: 100vh;
+}
+.grid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    color: white;
+    text-align: center;
+}
+.grid h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 10vw;
+    line-height: 8vw;
+}
+
+@media screen and (max-width:767px) {
+    .loginpage{
+        grid-template-columns: 1fr;
+    }    
+    .grid{
+        display: none;
+    }
+}

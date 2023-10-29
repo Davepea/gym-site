@@ -1,0 +1,110 @@
+body{
+background: none;
+background: #242424;
+}
+
+.hero-about h1{
+    font-size: 17vw;
+    font-family: 'Bebas Neue', sans-serif; 
+    color: #ffffff;
+    /* background: #d6300b; */
+    
+    display: inline;
+}
+.hero-about{
+    background: #242424;
+    padding: 4vw 4vw 2vw;
+    color: #FFFFFF;
+    height: 72%;
+}
+.crup{
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 4vw 4vw;
+    color: white;
+}
+.abt-page{
+    background: #242424;
+}
+.imgCls{
+    color: #FFFFFF;
+    height: 70vh;
+    position: relative;
+    
+}
+.imgCls::before{
+    content: " give your all";
+    position: absolute;
+    font-family: 'Bebas Neue', sans-serif; 
+    padding: 4vw;
+
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 15vw;
+    background: #d6300b4a;
+}
+
+
+.story{
+    padding: 4vw 0vw;
+    background: #ffffff;
+}
+.sto1{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 2vw 4vw;
+    font-weight: 700;
+}
+.sto1 p{
+    font-size: xx-large;
+    padding-bottom: 3vw;
+}
+.clnt{
+    padding: 3vw 4vw;
+    background: #ffffff;
+    color: #242424;
+    text-align: center;
+}
+.clnt p{
+    font-size: xx-large;
+    padding-bottom: 3vw;
+    font-weight: 700;
+
+}
+.clnt button{
+    background: #d6300b;
+    color: #FFFFFF;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width:767px) {
+    .sto1 p{
+        font-size: 15px;
+        padding-bottom: 3vw;
+    }
+    .crup p{
+        font-size: 10px;
+    }
+    .hero-about{
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+    }
+    .sto1{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        padding: 2vw 4vw;
+        font-weight: 700;
+    }
+    .clnt p{
+        font-size: 15px;
+        padding-bottom: 3vw;
+        font-weight: 700;
+    
+    }
+}

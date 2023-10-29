@@ -1,0 +1,126 @@
+.navbar{
+    padding: 2vw 5vw ;
+    font-family: 'Bebas Neue', sans-serif !important;
+
+    color: white;
+    font-size: 1.2vw;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.navbar2{
+    padding: 3vw 5vw 1vw;
+    font-family: 'Bebas Neue', sans-serif !important;
+
+    color: white;
+    font-size: 1vw;
+    border-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.navbar h1, .navbar span{
+    font-family: 'Bebas Neue', sans-serif !important;
+
+}
+.navbar2 h1, .navbar2 span{
+    font-family: 'Bebas Neue', sans-serif !important;
+
+}
+.large-flex{
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 30px;
+    font-family: 'Bebas Neue', sans-serif !important;
+
+}
+.large-flex a{
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif !important;
+
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li a{
+    color: gray;
+    font-family: 'Bebas Neue', sans-serif !important;
+
+}
+.navbar2 ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.navbar2 .boox2{
+    padding: 4rem;
+    background: black;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    display: block;
+    z-index: 100;
+}
+.navbar2 .boox1{
+    background: black;
+    padding: 4rem;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: grid;
+    place-items: center;
+    display: none;
+}
+.navbar2 ul li a{
+    color: gray;
+    font-family: 'Bebas Neue', sans-serif !important;
+
+}
+.large-flex button{
+    height: 50px;
+    background: none;
+    width: 150px;
+    border-radius: 30px;
+    font-size: large !important;
+    color: #ffffff;
+    font-size: large;
+    border: 1px solid white;
+}
+
+.navbar2{
+    display: none;
+}
+
+@media screen and (max-width:767px) {
+    .navbar{
+        display: none;
+    }
+    .navbar2{
+        display: flex;
+        font-size: 2rem;
+    }
+    .svg{
+        color: white;
+        font-size: 2rem;
+    }
+    .navbar2 h1{
+        font-size: 1.2rem;
+    }
+
+
+
+    
+}
